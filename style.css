@@ -1,0 +1,44 @@
+.rating-container{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.star{
+display: flex;
+border-radius: 10px;
+max-width: 80px;
+line-height: 50px;
+color: #32353a;
+}
+
+
+.form{
+ color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.body{
+ background-color:#1E252F;;   
+border-radius:10px;
+padding: 20px 20px;
+ 
+color: white;
+}
+
+.circle{
+    border-radius: 70px;
+    background-color: #32353a;
+   max-width: 50px;
+   line-height: 30px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type="radio"]{
+    display: none;
+}
