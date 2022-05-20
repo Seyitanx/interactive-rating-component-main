@@ -5,7 +5,7 @@
 }
 .body{
     background-color:#1E252F;;   
-border-radius:10px;
+border-radius:15px;
 padding: 20px 20px;
 width: 300px;
 
@@ -63,4 +63,9 @@ button{
     color: white;
     text-transform: uppercase;
 
+}
+button:hover{
+    background-color: white;
+    color: #fb7413;
+    cursor: pointer;
 }
