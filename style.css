@@ -1,71 +1,62 @@
-.rating-container{
-    margin-bottom: 30px;
-    margin-top: 30px;
-
+.rating-container {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-.body{
-    background-color:#1E252F;;   
-border-radius:15px;
-padding: 20px 20px;
-width: 300px;
+.body {
+  background-color: #1e252f;
+  border-radius: 10px;
+  padding: 20px 20px;
+  width: 300px;
 
-color: white;
+  color: white;
 }
-.body-container{
- display: flex;
- justify-content: center;
- align-items: center;
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.star{
+.star {
+  border-radius: 30px;
+  width: 20px;
+  background-color: #32353a;
 
-border-radius: 30px;
-width: 20px;
-background-color: #32353a;
-
-padding: 10px;
+  padding: 10px;
 }
 
-
-.form{
-
+.form {
   color: white;
   display: flex;
   justify-content: space-between;
 }
 
-
-
-.circle{
-    border-radius: 50px;
-    background-color: #32353a;
-   width: 40px;
-   line-height: 40px;
-   display: flex;
-    justify-content: center;
-    align-items: center;
-   
-} 
-
-
-
-input[type="radio"]{
-    display: none;
+.circle {
+  border-radius: 50px;
+  background-color: #32353a;
+  width: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.button{
-    margin: 20px;
-}
-button{
-   width: 100%;
-   padding: 10px;
-    border-radius: 20px;
-    background-color: #fb7413;
-    border-color:#fb7413;
-    color: white;
-    text-transform: uppercase;
 
+input[type="radio"] {
+  display: none;
 }
-button:hover{
-    background-color: white;
-    color: #fb7413;
-    cursor: pointer;
+.button {
+  margin: 20px;
+}
+button {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #fb7413;
+  border: 1px solid #fb7413 ;
+  color: white;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: white;
+  color: #fb7413;
+  cursor: pointer;
+border: 1px solid white;
 }
