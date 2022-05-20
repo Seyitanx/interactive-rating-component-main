@@ -60,3 +60,7 @@ button:hover {
   cursor: pointer;
 border: 1px solid white;
 }
+.image{
+  text-align: center;
+  margin: 20px;
+}
