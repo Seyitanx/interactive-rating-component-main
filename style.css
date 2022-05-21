@@ -44,8 +44,11 @@ input[type="radio"] {
 }
 .button {
   margin: 20px;
+  display: flex;
+  justify-content: center;
 }
-button {
+a{
+  text-align: center;
   width: 100%;
   padding: 10px 20px;
   border-radius: 20px;
@@ -53,12 +56,14 @@ button {
   border: 1px solid #fb7413 ;
   color: white;
   text-transform: uppercase;
+  text-decoration: none;
 }
-button:hover {
+a:hover {
   background-color: white;
   color: #fb7413;
   cursor: pointer;
 border: 1px solid white;
+text-decoration: none;
 }
 .image{
   text-align: center;
