@@ -36,8 +36,10 @@
 .circle {
   border-radius: 50px;
   background-color: #32353a;
+  border: 1px solid #32353a;
+  color: white;
   width: 40px;
-  line-height: 40px;
+  line-height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +54,7 @@ input[type="radio"] {
   display: flex;
   justify-content: center;
 }
-a{
+.main-button{
   text-align: center;
   width: 100%;
   padding: 10px 20px;
@@ -63,7 +65,7 @@ a{
   text-transform: uppercase;
   text-decoration: none;
 }
-a:hover {
+.main-button:hover {
   background-color: white;
   color: #fb7413;
   cursor: pointer;
