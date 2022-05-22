@@ -46,6 +46,7 @@
 input[type="radio"] {
   visibility: hidden;
 }
+
 .button {
   margin: 20px;
   display: flex;
@@ -88,4 +89,8 @@ justify-content: center;
 }
 h3, p{
   text-align: center;
+}
+
+.thankyou-card{
+  display: none;
 }
