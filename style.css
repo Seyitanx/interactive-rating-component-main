@@ -15,6 +15,11 @@
   justify-content: center;
   align-items: center;
 }
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .star {
  
   
@@ -43,6 +48,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.circle:hover{
+  background-color: #161a1f;
+  cursor: pointer;
 }
 
 input[type="radio"] {

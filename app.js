@@ -26,16 +26,23 @@ buttonFive.addEventListener("click", function () {
   numberPicked = buttonFive.innerHTML;
 });
 
+
+
+
 //this is meant to be for the toggle
 function submit() {
   let button = document.getElementById("thankyou-card");
   let card= document.getElementById("rating-card")
    
-  card.style.display === "none";
-  button.style.display === "block";
+  card.style.display = "none";
+  button.style.display = "flex";
   console.log("string")
   
 }
    
 let submitButton = document.querySelector("#btn");
 submitButton.addEventListener("click", submit);
+
+//for the display on the thank you page
+let selection = document.querySelector("#number-selected");
+selection.innerHTML = numberPicked;
