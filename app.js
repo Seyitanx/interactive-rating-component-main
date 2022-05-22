@@ -30,11 +30,12 @@ buttonFive.addEventListener("click", function () {
 function submit() {
   let button = document.getElementById("thankyou-card");
   let card= document.getElementById("rating-card")
+   
   card.style.display === "none";
   button.style.display === "block";
-  console.log(submit)
+  console.log("string")
   
 }
-    let submitButton = document.querySelector("#btn");
-
+   
+let submitButton = document.querySelector("#btn");
 submitButton.addEventListener("click", submit);
